@@ -3,17 +3,17 @@
     <head>
         <title>Connexion</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/png" href="img/logo/manganomori/2.png">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="icon" type="image/png" href="../../img/logo/manganomori/2.png">
     </head>
     <body>
         
-        <?php require_once ('composants/header.php') ?>
+        <?php require_once ('../../composants/header.php') ?>
 
         <main>
             <section id="section_formulaire_connexion">
                 <h1>Connexion</h1>
-                <form action="Result_Login.php" method="post" class="formulaire_connexion">
+                <form action="Result_Connexion.php" method="post" class="formulaire_connexion">
                     <ul>
                         <li>
                             <label for="email">Email :</label>
@@ -24,7 +24,7 @@
                             <input type="password" id="mot_de_passe" name="mot_de_passe" required>
                         </li>
                         <li>
-                            <input class="bouton_2" type="submit" value="mValider">
+                            <input class="bouton_2" type="submit" value="Valider">
                         </li>
                         <a href="Formulaire_Inscription.php" class="bouton_3">S'inscrire</a>
                     </ul>
@@ -32,7 +32,7 @@
             </section>
         </main>
 
-        <?php require_once ('composants/footer.php')?>
+        <?php require_once ('../../composants/footer.php')?>
 
     </body>
 </html>

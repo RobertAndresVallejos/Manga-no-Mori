@@ -3,17 +3,17 @@
     <head>
         <title>Inscription</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/png" href="img/logo/manganomori/2.png">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="icon" type="image/png" href="../../img/logo/manganomori/2.png">
     </head>
     <body>
         
-        <?php require_once ('composants/header.php') ?>
+        <?php require_once ('../../composants/header.php') ?>
 
         <main>
             <section id="section_formulaire_inscription">
                 <h1>Inscription</h1>
-                <form action="Result.php" method="post" class="formulaire_inscription">
+                <form action="Result_Inscription.php" method="post" class="formulaire_inscription">
                     <ul>
                         <li>
                             <label for="email">Email :</label>
@@ -36,7 +36,7 @@
             </section>
         </main>
 
-        <?php require_once ('composants/footer.php')?>
+        <?php require_once ('../../composants/footer.php')?>
 
     </body>
 </html>
