@@ -24,18 +24,27 @@ Réalisé individuellement.
 
 ## Mini cahier des charges
 [ ] dans la table "utilisateur" ajouter un champ "role" (role : admin ou user)
+
 [ ] si besoin, modifier les pages PHP nécessaires
+
 [ ] ajouter le logo "admin" + "parametres" (img\logo\panier-compte)
+
 [ ] créer les pages "Admin.php" + "Parametres.php"
+
 [ ] dans la page "Parametres.php" ajouter :
     Paramètres
 email : (email de l'utilisateur connecté)
 mot de passe : (mdp de l'utilisateur connecté + icône et fonctionnalité oeil)
 (bouton : modifier votre mot de passe (couleur orange))
+
 [ ] créer les pages "Utilisateurs.php", "Stocks.php", "Commandes.php"
+
 [ ] dans la page "Admin.php" ajouter :
     Admin
 liens en boutons : Utilisateurs, Stocks, Commandes
+
 [ ] Utilisateurs.php : Tableau des utilisateurs où l'on pourra ajouter, modifier ou supprimer des informations
+
 [ ] Stocks.php : Tableau des stocks du magasin
+
 [ ] Commandes.php : Tableau des commandes (à conceptualiser après...)
