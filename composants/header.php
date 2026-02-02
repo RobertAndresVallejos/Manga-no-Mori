@@ -13,9 +13,14 @@
         <ul>
             <li><a href="/liens_header/Panier.php"><img src="/img/logo/panier-compte/panier.png" alt="logo_panier"></a></li>
             
-            <?php
+            <?php 
                 if(isset($_SESSION["email"])){
-                    echo '<li><a href="/liens_header/inscription_connexion/Deconnexion.php"><img src="/img/logo/panier-compte/deconnexion.png" alt="logo_deconnexion"></a></li>';
+                    if(isset($_SESSION["role"]) === "admin"){
+                    echo '<li><a href="/admin/admin.php"><img src="/img/logo/panier-compte/admin.png" alt="logo_admin"></a></li>';
+                }
+
+                echo '<li><a href="/liens_header/inscription_connexion/Deconnexion.php"><img src="/img/logo/panier-compte/deconnexion.png" alt="logo_deconnexion"></a></li>';
+
                 }else{
                     echo '<li><a href="/liens_header/inscription_connexion/Formulaire_Connexion.php"><img src="/img/logo/panier-compte/utilisateur.png" alt="logo_utilisateur"></a></li>';
                 }

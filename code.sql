@@ -1,5 +1,6 @@
 CREATE TABLE utilisateur (
     id INT AUTO_INCREMENT PRIMARY KEY,
+    role VARCHAR(30) NOT NULL DEFAULT 'user',
     email VARCHAR(255) UNIQUE NOT NULL,
     mot_de_passe VARCHAR(255) NOT NULL
 )
