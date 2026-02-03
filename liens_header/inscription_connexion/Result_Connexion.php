@@ -33,6 +33,7 @@
 
             //vérification des données pour la connexion
             if(count($result) > 0 && password_verify($mot_de_passe, $result[0]["mot_de_passe"])){
+                $_SESSION["role"] = $result[0]["role"];
                 $_SESSION["email"] = $email;
                 header('Location: ../Accueil.php');
                 exit;
