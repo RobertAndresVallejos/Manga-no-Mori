@@ -170,6 +170,14 @@ header a.header_lien_gauche img{
         font-size: 14px;
     }
 
+    /* Parametres.php */
+
+    #section-parametres{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     /* Contact.php */
 
     #section-contact{

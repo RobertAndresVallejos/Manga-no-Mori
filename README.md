@@ -29,7 +29,7 @@ Réalisé individuellement.
 
 - [x] modification du header.php et du Result_Connexion.php pour créer une réaction quand un "utilisateur" avec un rôle "admin" sera connecté + ajout du logo "admin"
 
-- [ ] ajoutedu logo "parametres" (img\logo\panier-compte) + créer la page "Parametres.php"
+- [x] ajoute du logo "parametres" (img\logo\panier-compte) + créer la page "Parametres.php"
 
 - [ ] dans la page "Parametres.php" ajouter :
     Paramètres
