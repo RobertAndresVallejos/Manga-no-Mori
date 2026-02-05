@@ -20,12 +20,14 @@
             require_once('../../Database.php');
 
             //récupération des variables
+            $nom = $_POST['nom'];
+            $prenom = $_POST['prenom'];
             $email = $_POST['email'];
             $mot_de_passe = $_POST['mot_de_passe'];
             $confirmation_mot_de_passe = $_POST['confirmation_mot_de_passe'];
 
             //vérification de présence
-            if(empty($email) || empty($mot_de_passe) || empty($confirmation_mot_de_passe)){
+            if(empty($nom) || empty($prenom) || empty($email) || empty($mot_de_passe) || empty($confirmation_mot_de_passe)){
                 header('Location: Formulaire_Inscription.php');
                 exit;
             }
@@ -39,8 +41,10 @@
                 //Insertion dans la BDD
                 try{
                     //initialisation d'une requête SQL
-                    $request = $pdo->prepare('INSERT INTO utilisateur (email, mot_de_passe) VALUES (:email, :mot_de_passe)');
+                    $request = $pdo->prepare('INSERT INTO utilisateur (nom, prenom, email, mot_de_passe) VALUES (:nom, :prenom, :email, :mot_de_passe)');
                     //liaisons de requêtes avec bindParam
+                    $request->bindParam(':nom', $nom);
+                    $request->bindParam(':prenom', $prenom);
                     $request->bindParam(':email', $email);
                     $request->bindParam(':mot_de_passe', $mot_de_passe_hache);
                     //exécution de la requête et envoi de données à la BDD

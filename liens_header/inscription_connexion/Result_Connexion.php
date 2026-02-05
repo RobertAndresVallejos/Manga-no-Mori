@@ -20,6 +20,8 @@
             require_once('../../Database.php');
 
             //récupération des variables
+            $nom = $_POST['nom'];
+            $prenom = $_POST['prenom'];
             $email = $_POST['email'];
             $mot_de_passe = $_POST['mot_de_passe'];
 
@@ -35,8 +37,11 @@
 
             //vérification des données pour la connexion
             if(count($result) > 0 && password_verify($mot_de_passe, $result[0]["mot_de_passe"])){
-                $_SESSION["role"] = $result[0]["role"];
+                $_SESSION["role"] = $result[0]["role"];    
+                $_SESSION["nom"] = $result[0]["nom"]; 
+                $_SESSION["prenom"] = $result[0]["prenom"];
                 $_SESSION["email"] = $email;
+                $_SESSION["mot_de_passe"] = $mot_de_passe;
                 header('Location: ../Accueil.php');
                 exit;
             }else{

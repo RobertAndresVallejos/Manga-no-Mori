@@ -31,11 +31,9 @@ Réalisé individuellement.
 
 - [x] ajoute du logo "parametres" (img\logo\panier-compte) + créer la page "Parametres.php"
 
-- [ ] dans la page "Parametres.php" ajouter :
-    Paramètres
-email : (email de l'utilisateur connecté)
-mot de passe : (mdp de l'utilisateur connecté + icône et fonctionnalité oeil)
-(bouton : modifier votre mot de passe (couleur orange))
+- [ ] dans la page "Parametres.php", ajout d'informations (Nom, Prenom, mail, "mot de passe")
+
+- [ ] créer le bouton pour modifier le mot de passe (couleur orange)
 
 - [ ] créer les pages "Utilisateurs.php", "Stocks.php", "Commandes.php"
 
