@@ -24,7 +24,7 @@
                     <br>
                     <?php echo 'Mail : ' . $_SESSION['email'] ?>
                     <br>
-                    <?php echo 'Mot de passe : ********** ' ?>
+                    <?php echo 'Mot de passe : ********** ' ?><a href="ModificationMotDePasse.php" class="bouton_4">Modifier</a>
                 </div>
             </section>
         </main>
