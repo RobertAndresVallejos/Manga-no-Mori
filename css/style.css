@@ -74,6 +74,15 @@ header a.header_lien_gauche img{
         border: solid 1px black;
     }
 
+    .bloc-type-2{
+        padding: 20px;
+        min-width: 20%;
+        max-width: 50%;
+        max-height: 100%;
+        background-color: #FFC0CB;
+        border: solid 1px black;
+    }
+
     /* Accueil.php */
 
     #section_decouvrez{
@@ -198,6 +207,12 @@ header a.header_lien_gauche img{
         height: 20px;
         border: solid 1px black;
         border-radius: 2px;
+    }
+
+    /* ModificationMotDePasse.php */
+    .bloc-type-2 ul{
+        list-style: none;
+        padding: 0;
     }
 
     /* Contact.php */

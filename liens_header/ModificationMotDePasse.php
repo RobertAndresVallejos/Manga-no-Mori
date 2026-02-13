@@ -15,8 +15,8 @@
         <main>
             <section id="section-parametres">
                 <h1>Mot de passe</h1>
-                <div class="bloc-type-1">  
-                    <form action="Result_ModifMotDePasse.php" method="post" class="formulaire_connexion">
+                <div class="bloc-type-2">  
+                    <form action="Result_ModifMotDePasse.php" method="post" class="#">
                         <ul>
                             <li>
                                 <label for="mot_de_passe">Mot de passe :</label>

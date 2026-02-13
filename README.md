@@ -34,6 +34,9 @@ Réalisé individuellement.
 - [x] dans la page "Parametres.php", ajout d'informations (Nom, Prenom, mail, "mot de passe")
 
 - [ ] Achever le paramétrage de modification de mot de passe
+- Dans ModificationMotDePasse.php, ajouter une partie "Nouveau mot de passe"
+- Création de la structure php dans Result_ModifMotDePasse.php
+- ...
 
 - [ ] créer les pages "Utilisateurs.php", "Stocks.php", "Commandes.php"
 
