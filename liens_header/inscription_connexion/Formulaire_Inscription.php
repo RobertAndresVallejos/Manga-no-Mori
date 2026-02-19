@@ -13,9 +13,9 @@
         <?php require_once ('../../composants/header.php') ?>
 
         <main>
-            <section id="section_formulaire_inscription">
+            <section id="section-formulaire-type-1">
                 <h1>Inscription</h1>
-                <form action="Result_Inscription.php" method="post" class="formulaire_inscription">
+                <form action="Result_Inscription.php" method="post" class="formulaire-type-1">
                     <ul>
                         <li>
                             <label for="nom">Nom :</label>

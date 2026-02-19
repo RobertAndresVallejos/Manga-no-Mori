@@ -63,7 +63,29 @@ header a.header_lien_gauche img{
 
 /* MAIN */
 
-    /* Class réutilisables */
+    /* Classes réutilisables */
+
+    
+    .bouton_2{
+        color: black;
+        background-color:#4CAF50;
+        border-radius: 2px;
+        border: solid 1px black;
+        font-size: 14px;
+    }
+
+    .bouton_3{
+        display: block;
+        padding: 0 10px;
+        background-color: rgb(240, 240, 240);
+        width: 230px;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 2px;
+        border: solid 1px black;
+        font-size: 14px;
+    }
 
     .bloc-type-1{
         padding: 20px;
@@ -81,6 +103,40 @@ header a.header_lien_gauche img{
         max-height: 100%;
         background-color: #FFC0CB;
         border: solid 1px black;
+    }
+
+    #section-formulaire-type-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulaire-type-1{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        background-color: #FFC0CB;
+        border-radius: 10px;
+        border: solid 1px black;
+    }
+
+    .formulaire-type-1 ul{
+        padding: 0;
+        list-style: none;
+    }
+
+    .formulaire-type-1 ul li{
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+
+    .formulaire-type-1 label, .formulaire-type-1 input{
+        display: block;
+    }
+
+    .formulaire-type-1 input, .formulaire-type-1 input{
+        width: 100%;
+        box-sizing: border-box;
     }
 
     /* Accueil.php */
@@ -119,67 +175,6 @@ header a.header_lien_gauche img{
         border: solid 1px black;
     }
 
-    /* Formulaire_Inscription.php & Formulaire_Connexion */
-
-    #section_formulaire_inscription, #section_formulaire_connexion{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .formulaire_inscription, .formulaire_connexion{
-        display: flex;
-        flex-direction: column;
-        width: 250px;
-        background-color: #FFC0CB;
-        border-radius: 10px;
-        border: solid 1px black;
-    }
-
-    .formulaire_inscription ul, .formulaire_connexion ul{
-        padding: 0;
-        list-style: none;
-    }
-
-    .formulaire_inscription ul li, .formulaire_connexion ul li{
-        padding: 0 10px;
-        margin-bottom: 10px;
-    }
-
-    .formulaire_inscription ul li:last-child, .formulaire_connexion ul li:last-child{
-        margin-bottom: 0;
-    }
-
-    .formulaire_inscription label, .formulaire_inscription input, .formulaire_connexion label, .formulaire_connexion input{
-        display: block;
-    }
-
-    .formulaire_inscription input, .formulaire_connexion input{
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .bouton_2{
-        color: black;
-        background-color:#4CAF50;
-        border-radius: 2px;
-        border: solid 1px black;
-        font-size: 14px;
-    }
-
-    .bouton_3{
-        display: block;
-        padding: 0 10px;
-        background-color: rgb(240, 240, 240);
-        width: 230px;
-        box-sizing: border-box;
-        text-align: center;
-        margin: 0 auto;
-        border-radius: 2px;
-        border: solid 1px black;
-        font-size: 14px;
-    }
-
     /* Parametres.php */
 
     #section-parametres{
@@ -196,23 +191,6 @@ header a.header_lien_gauche img{
     #section-parametres h3{
         margin: 0;
         margin-bottom: 20px;
-    }
-
-    .bouton_4{
-        display: block;
-        background-color: orange;
-        text-align: center;
-        line-height: 21px;
-        width: 60px;
-        height: 20px;
-        border: solid 1px black;
-        border-radius: 2px;
-    }
-
-    /* ModificationMotDePasse.php */
-    .bloc-type-2 ul{
-        list-style: none;
-        padding: 0;
     }
 
     /* Contact.php */

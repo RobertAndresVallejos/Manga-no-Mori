@@ -33,8 +33,9 @@ Réalisé individuellement.
 
 - [x] dans la page "Parametres.php", ajout d'informations (Nom, Prenom, mail, "mot de passe")
 
-- [ ] Achever le paramétrage de modification de mot de passe
-- Dans ModificationMotDePasse.php, ajouter une partie "Nouveau mot de passe"
+- [ ] ACHEVER LE PARAMÉTRAGE DE MODIFICATION DE MOT DE PASSE
+- [x] Dans ModificationMotDePasse.php, ajouter une partie "Nouveau mot de passe"
+- [x] Mise en place de la section "section-formulaire-type-1" dans "Formulaire_Modification_MotDePasse.php"
 - Création de la structure php dans Result_ModifMotDePasse.php
 - ...
 

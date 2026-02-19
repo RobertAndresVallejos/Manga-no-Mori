@@ -13,9 +13,9 @@
         <?php require_once ('../../composants/header.php') ?>
 
         <main>
-            <section id="section_formulaire_connexion">
+            <section id="section-formulaire-type-1">
                 <h1>Connexion</h1>
-                <form action="Result_Connexion.php" method="post" class="formulaire_connexion">
+                <form action="Result_Connexion.php" method="post" class="formulaire-type-1">
                     <ul>
                         <li>
                             <label for="email">Email :</label>
