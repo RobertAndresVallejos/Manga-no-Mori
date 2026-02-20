@@ -40,7 +40,9 @@
                         <li>
                             <input class="bouton_2" type="submit" value="Valider">
                         </li>
-                        <a href="Formulaire_Connexion.php" class="bouton_3">Se connecter</a>
+                        <li>
+                            <a href="Formulaire_Connexion.php" class="bouton_3">Se connecter</a>
+                        </li>
                     </ul>
                 </form>
             </section>

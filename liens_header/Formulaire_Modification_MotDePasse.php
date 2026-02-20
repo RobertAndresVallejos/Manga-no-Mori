@@ -32,7 +32,9 @@
                             <li>
                                 <input class="bouton_2" type="submit" value="Valider">
                             </li>
-                            <a href="Parametres.php" class="bouton_3">Retour</a>
+                            <li>
+                                <a href="Parametres.php" class="bouton_3">Retour</a>
+                            </li>
                         </ul>
                     </form>
             </section>

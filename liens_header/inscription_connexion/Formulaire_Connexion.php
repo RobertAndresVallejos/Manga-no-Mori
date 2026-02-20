@@ -28,7 +28,9 @@
                         <li>
                             <input class="bouton_2" type="submit" value="Valider">
                         </li>
-                        <a href="Formulaire_Inscription.php" class="bouton_3">S'inscrire</a>
+                        <li>
+                            <a href="Formulaire_Inscription.php" class="bouton_3">S'inscrire</a>
+                        </li>
                     </ul>
                 </form>
             </section>

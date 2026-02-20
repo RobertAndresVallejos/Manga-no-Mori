@@ -53,7 +53,7 @@ header a.header_lien_gauche img{
 
 .header_liens_central{
     height: 120px;
-    width: 100%;
+    width: 80%;
 }
 
 .header_liens_droite{
@@ -78,7 +78,7 @@ header a.header_lien_gauche img{
         display: block;
         padding: 0 10px;
         background-color: rgb(240, 240, 240);
-        width: 230px;
+        width: 100%;
         box-sizing: border-box;
         text-align: center;
         margin: 0 auto;
@@ -130,6 +130,10 @@ header a.header_lien_gauche img{
         margin-bottom: 10px;
     }
 
+    .formulaire-type-1 ul li:last-child{
+        margin-bottom: 0;
+    }
+
     .formulaire-type-1 label, .formulaire-type-1 input{
         display: block;
     }
@@ -152,12 +156,11 @@ header a.header_lien_gauche img{
     }
 
     #section_decouvrez h2{
-        color: whitesmoke;
+        color: white;
         font-size: 55px;
         font-weight: normal;
         text-transform: uppercase;
         text-align: center;
-        color: white;
         -webkit-text-stroke: 2px black;
         /*contour de texte : https://kinsta.com/fr/blog/contour-texte-css/*/
     }
@@ -191,6 +194,15 @@ header a.header_lien_gauche img{
     #section-parametres h3{
         margin: 0;
         margin-bottom: 20px;
+    }
+
+    #section-parametres p{
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    #section-parametres p:last-child{
+        margin-bottom: 0;
     }
 
     /* Contact.php */
