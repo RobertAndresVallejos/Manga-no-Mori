@@ -18,16 +18,16 @@
                     <form action="Result_ModifMotDePasse.php" method="post" class="formulaire-type-1">
                         <ul>
                             <li>
-                                <label for="mot_de_passe">Ancien mot de passe :</label>
-                                <input type="password" id="mot_de_passe" name="mot_de_passe" required>
+                                <label for="ancien_mot_de_passe">Ancien mot de passe :</label>
+                                <input type="password" id="ancien_mot_de_passe" name="ancien_mot_de_passe" required>
                             </li>
                             <li>
-                                <label for="mot_de_passe">Nouveau mot de passe :</label>
-                                <input type="password" id="mot_de_passe" name="mot_de_passe" required>
+                                <label for="nouveau_mot_de_passe">Nouveau mot de passe :</label>
+                                <input type="password" id="nouveau_mot_de_passe" name="nouveau_mot_de_passe" required>
                             </li>
                             <li>
                                 <label for="confirmation_nouveau_mot_de_passe">Confirmation du nouveau mot de passe :</label>
-                                <input type="password" id="confirmation_mot_de_passe" name="confirmation_mot_de_passe" required>
+                                <input type="password" id="confirmation_nouveau_mot_de_passe" name="confirmation_nouveau_mot_de_passe" required>
                             </li>
                             <li>
                                 <input class="bouton_2" type="submit" value="Valider">

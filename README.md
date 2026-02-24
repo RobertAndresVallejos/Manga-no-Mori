@@ -36,8 +36,8 @@ Réalisé individuellement.
 - [ ] ACHEVER LE PARAMÉTRAGE DE MODIFICATION DE MOT DE PASSE
 - [x] Dans ModificationMotDePasse.php, ajouter une partie "Nouveau mot de passe"
 - [x] Mise en place de la section "section-formulaire-type-1" dans "Formulaire_Modification_MotDePasse.php"
-- Création de la structure php dans Result_ModifMotDePasse.php
-- ...
+- [x] Création de la structure php dans Result_ModifMotDePasse.php
+- [ ] Vérifier si tout est bon pour cloturer l'étape
 
 - [ ] créer les pages "Utilisateurs.php", "Stocks.php", "Commandes.php"
 

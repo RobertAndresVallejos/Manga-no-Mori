@@ -24,7 +24,7 @@
             $prenom = $_POST['prenom'];
             $email = $_POST['email'];
             $mot_de_passe = $_POST['mot_de_passe'];
-
+1
             //initialisation d'une requête SQL
             $request = $pdo->prepare("SELECT * FROM utilisateur WHERE email = :email");
             //liaisons de requêtes avec bindParam
@@ -37,11 +37,12 @@
 
             //vérification des données pour la connexion
             if(count($result) > 0 && password_verify($mot_de_passe, $result[0]["mot_de_passe"])){
+                $_SESSION["id"] = $result[0]["id"];
                 $_SESSION["role"] = $result[0]["role"];    
                 $_SESSION["nom"] = $result[0]["nom"]; 
                 $_SESSION["prenom"] = $result[0]["prenom"];
                 $_SESSION["email"] = $email;
-                $_SESSION["mot_de_passe"] = $mot_de_passe;
+                // $_SESSION["mot_de_passe"] = $mot_de_passe; à supprimer s'il n'a aucune conséquence ... car ca pourrait être plus sûre
                 header('Location: ../Accueil.php');
                 exit;
             }else{
