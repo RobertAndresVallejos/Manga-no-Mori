@@ -19,12 +19,10 @@
         
             require_once('../../Database.php');
 
-            //récupération des variables
-            $nom = $_POST['nom'];
-            $prenom = $_POST['prenom'];
+            //récupération des variables depuis le formulaire
             $email = $_POST['email'];
             $mot_de_passe = $_POST['mot_de_passe'];
-1
+
             //initialisation d'une requête SQL
             $request = $pdo->prepare("SELECT * FROM utilisateur WHERE email = :email");
             //liaisons de requêtes avec bindParam
@@ -42,7 +40,6 @@
                 $_SESSION["nom"] = $result[0]["nom"]; 
                 $_SESSION["prenom"] = $result[0]["prenom"];
                 $_SESSION["email"] = $email;
-                // $_SESSION["mot_de_passe"] = $mot_de_passe; à supprimer s'il n'a aucune conséquence ... car ca pourrait être plus sûre
                 header('Location: ../Accueil.php');
                 exit;
             }else{

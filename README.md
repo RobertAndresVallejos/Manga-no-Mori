@@ -33,11 +33,11 @@ Réalisé individuellement.
 
 - [x] dans la page "Parametres.php", ajout d'informations (Nom, Prenom, mail, "mot de passe")
 
-- [ ] ACHEVER LE PARAMÉTRAGE DE MODIFICATION DE MOT DE PASSE
+- [x] ACHEVER LE PARAMÉTRAGE DE MODIFICATION DE MOT DE PASSE
 - [x] Dans ModificationMotDePasse.php, ajouter une partie "Nouveau mot de passe"
 - [x] Mise en place de la section "section-formulaire-type-1" dans "Formulaire_Modification_MotDePasse.php"
 - [x] Création de la structure php dans Result_ModifMotDePasse.php
-- [ ] Vérifier si tout est bon pour cloturer l'étape
+- [x] Vérifier si tout est bon pour cloturer l'étape
 
 - [ ] créer les pages "Utilisateurs.php", "Stocks.php", "Commandes.php"
 

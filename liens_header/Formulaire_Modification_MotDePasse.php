@@ -15,7 +15,7 @@
         <main>
             <section id="section-formulaire-type-1">
                 <h1>Mot de passe</h1>
-                    <form action="Result_ModifMotDePasse.php" method="post" class="formulaire-type-1">
+                    <form action="inscription_connexion/Result_ModifMotDePasse.php" method="post" class="formulaire-type-1">
                         <ul>
                             <li>
                                 <label for="ancien_mot_de_passe">Ancien mot de passe :</label>
