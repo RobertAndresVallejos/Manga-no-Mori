@@ -39,14 +39,13 @@ Réalisé individuellement.
 - [x] Création de la structure php dans Result_ModifMotDePasse.php
 - [x] Vérifier si tout est bon pour cloturer l'étape
 
-- [ ] créer les pages "Utilisateurs.php", "Stocks.php", "Commandes.php"
+- [x] créer les pages "Tableau_des_utilisateurs.php", "Stocks.php", "Commandes.php"
 
-- [ ] dans la page "Admin.php" ajouter :
-    Admin
-liens en boutons : Utilisateurs, Stocks, Commandes
+- [ ] FINIR LA PAGE "Admin.php" :
+- [x] créations des liens href sous forme d'images : Utilisateurs, Stocks, Commandes
 
-- [ ] Utilisateurs.php : Tableau des utilisateurs où l'on pourra ajouter, modifier ou supprimer des informations
+- [ ] Tableau_des_utilisateurs.php : Tableau des utilisateurs où l'on pourra ajouter, modifier ou supprimer des informations
 
 - [ ] Stocks.php : Tableau des stocks du magasin
 
-- [ ] Commandes.php : Tableau des commandes (à conceptualiser après...)
+- [ ] Commandes.php : Tableau des commandes (en cours de "création", envoyer, arriver à X endroit, etc.)
