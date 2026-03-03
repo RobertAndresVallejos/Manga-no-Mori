@@ -182,8 +182,25 @@ header a.header_lien_gauche img{
         align-items: center;
     }
 
-    .to_be_continued{
-        width: 150px;
+    .admin_images{
+        height: 140px;
+    }
+
+    .fond_img_admin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        height: 160px;
+    }
+
+    .white{
+        background-color: white;
+    }
+
+    .blue_ocean{
+        background-color: #5aa3ce;
     }
 
     /* Parametres.php */

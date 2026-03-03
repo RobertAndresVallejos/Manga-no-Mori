@@ -43,6 +43,7 @@ Réalisé individuellement.
 
 - [ ] FINIR LA PAGE "Admin.php" :
 - [x] créations des liens href sous forme d'images : Utilisateurs, Stocks, Commandes
+- [ ] Bonne mise en forme des trois div de Admin.php 
 
 - [ ] Tableau_des_utilisateurs.php : Tableau des utilisateurs où l'on pourra ajouter, modifier ou supprimer des informations
 

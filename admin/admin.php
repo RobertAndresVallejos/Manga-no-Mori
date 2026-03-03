@@ -19,21 +19,27 @@
                         <div class="bloc-type-1">
                             <h2>Commandes</h2>
                                 <a href="Commandes.php">
-                                    <img class="to_be_continued" src="../img/fond/to_be_continued.png" alt="to_be_continued"/>
+                                    <div class="fond_img_admin blue_ocean">
+                                        <img class="admin_images" src="../img/admin/commandes.jpg" alt="commandes.jpg"/>
+                                    </div>
                                 </a>
                             <p>Suivi et gestion des étapes de livraison.</p>
                         </div>
                         <div class="bloc-type-1">
                             <h2>Stocks</h2>
                                 <a href="Stocks.php">
-                                    <img class="to_be_continued" src="../img/fond/to_be_continued.png" alt="to_be_continued"/>
+                                    <div class="fond_img_admin white">
+                                        <img class="admin_images" src="../img/admin/stocks.png" alt="stocks.png"/>
+                                    </div>
                                 </a>
                             <p>État des stocks et inventaire du magasin.</p>
                         </div>
                         <div class="bloc-type-1">
                             <h2>Tableau des utilisateurs</h2>
                                 <a href="Tableau_des_utilisateurs.php">
-                                    <img class="to_be_continued" src="../img/fond/to_be_continued.png" alt="to_be_continued"/>
+                                    <div class="fond_img_admin white">
+                                        <img class="admin_images" src="../img/admin/tableau_des_utilisateurs.png" alt="tableau_des_utilisateurs.png"/>
+                                    </div>
                                 </a>
                             <p>Administration et modification des comptes.</p>
                         </div>
