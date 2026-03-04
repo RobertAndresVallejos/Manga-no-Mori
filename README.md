@@ -41,12 +41,21 @@ Réalisé individuellement.
 
 - [x] créer les pages "Tableau_des_utilisateurs.php", "Stocks.php", "Commandes.php"
 
-- [ ] FINIR LA PAGE "Admin.php" :
+- [x] FINIR LA PAGE "Admin.php" :
 - [x] créations des liens href sous forme d'images : Utilisateurs, Stocks, Commandes
-- [ ] Bonne mise en forme des trois div de Admin.php 
+- [x] Bonne mise en forme des trois div de Admin.php 
 
+- [ ] FINIR LA PAGE "Mangas.php"
+- [x] Conceptualisation + création d'une table et des valeurs SQL
+- [ ] Remplissage de la table "mangas" (insertion de données)
+- [ ] Création d'un tableau dynamique
+- [ ] Importation des valeurs SQL
+
+- [ ] FINIR LA PAGE "Tableau_des_utilisateurs.php" :
 - [ ] Tableau_des_utilisateurs.php : Tableau des utilisateurs où l'on pourra ajouter, modifier ou supprimer des informations
 
+- [ ] FINIR LA PAGE "Stocks.php" :
 - [ ] Stocks.php : Tableau des stocks du magasin
 
+- [ ] FINIR LA PAGE "Commandes.php" :
 - [ ] Commandes.php : Tableau des commandes (en cours de "création", envoyer, arriver à X endroit, etc.)

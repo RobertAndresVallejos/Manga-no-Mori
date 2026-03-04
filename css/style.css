@@ -174,6 +174,21 @@ header a.header_lien_gauche img{
         border: solid 1px black;
     }
 
+    /* Mangas.php */
+
+    #section-mangas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tableau_mangas{
+        width: 80%;
+        height: 100%;
+        padding: 10px 10px;
+        background-color: #FFC0CB;
+    }
+
     /* Admin.php */
 
     #section-admin{
