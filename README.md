@@ -47,7 +47,8 @@ Réalisé individuellement.
 
 - [ ] FINIR LA PAGE "Mangas.php"
 - [x] Conceptualisation + création d'une table et des valeurs SQL
-- [ ] Remplissage de la table "mangas" (insertion de données)
+- [x] Remplissage de la table "mangas" (insertion de données)
+- [x] Création d'un tableau HTML
 - [ ] Création d'un tableau dynamique
 - [ ] Importation des valeurs SQL
 

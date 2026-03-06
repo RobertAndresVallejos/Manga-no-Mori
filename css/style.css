@@ -189,6 +189,12 @@ header a.header_lien_gauche img{
         background-color: #FFC0CB;
     }
 
+    table, th, td{
+        border: 1px solid black;
+    }
+
+    /* continuer la partie Tables HTML sur w3schools */
+
     /* Admin.php */
 
     #section-admin{

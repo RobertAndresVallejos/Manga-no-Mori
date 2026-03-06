@@ -16,7 +16,23 @@
             <section id="section-mangas">
                 <h1>Mangas</h1>
                 <div class="tableau_mangas">
-                    <h2>Nos mangas :</h2>
+                    <table>
+                        <tr>
+                            <th>Titre</th>
+                            <th>Tomes_numero</th>
+                            <th>Auteur</th>
+                        </tr>
+                        <tr>
+                            <td>Assassination Classroom</td>
+                            <td>1</td>
+                            <td>Yūsei Matsui</td>
+                        </tr>
+                        <tr>
+                            <td>Bleach</td>
+                            <td>1</td>
+                            <td>Tite Kubo</td>
+                        </tr>
+                    </table>
                 </div>
             </section>
         </main>
@@ -25,19 +41,6 @@
         
     </body>
 </html>
-
-<!-- 
-id
-titre
-auteur
-dessinateur
-genre
-tomes_possedes (nbr de volumes dans le stock)
-tomes_total (nombre de tomes existant)
-prix
-image
-statut
--->
 
 <!-- 
 Shonen :
@@ -84,7 +87,7 @@ L'Attaque des Titans
 Mushishi 
 Nana 
 Oyasumi Punpun 
-Pluto 
+Parasite
 Q (Ku) 
 Real 
 Steins;Gate 
